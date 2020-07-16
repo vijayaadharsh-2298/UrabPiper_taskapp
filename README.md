@@ -21,14 +21,14 @@ A long time ago in a galaxy far, far away...
 It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.
 
 During the battle, rebel spies manageed to steal secret plans to the Empire's ultimate weapon. Rather oddly these plans contain
-blueprints for an Search component to search for Star Wars characters by name.
+blueprints for a UI component to search for Star Wars characters by name. Perplexed, the Rebel Command decides to build this for themselves.
 
 You are tasked with building this component to help the rebels restore freedom to the galaxy...
 
 ## The Assignment
 This repository contains a basic scaffolding of a React app. We have purposefully kept the dependencies to a minimum, 
 it is by no means supposed to be a limitation. You can go ahead and introduce any library/software system that you 
-feel will help you create a better solution. Needless to say please do not use an AutoComplete library/component :)
+feel will help you create a better solution. Needless to say please do not use an Search library/component :)
 
 You can make use of the publicly accessible API Service — [Star Wars API — SWAPI](https://swapi.dev/). Use the `/people/` endpoint to search for characters.
 
@@ -62,7 +62,7 @@ yarn start
 You are to build a search component to search for characters by name. Similar to how Google's search box works
 we expect the component to search as the user is typing. Also ensure the user can use the keyboard to navigate the results (Arrow keys and Enter to select)
 
-Also, be mindful of calling the API at a reasonable limit as the user is typing.
+Also, be mindful of calling the API at a reasonable rate as the user is typing.
 
 ## 2—Character Page
 The user should be able to select a character from search results and view details about the character. Build a simple page

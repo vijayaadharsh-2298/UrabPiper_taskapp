@@ -32,8 +32,31 @@ feel will help you create a better solution. Needless to say please do not use a
 
 You can make use of the publicly accessible API Service — [Star Wars API — SWAPI](https://swapi.dev/). Use the `/people/` endpoint to search for characters.
 
-We have included designs for the component. Try to stick close to the design, but if you feel like something can be done better
+We have included designs for the component in the repository. Try to stick close to the design, but if you feel like something can be done better
 please feel free to change it. We would love to discuss that in the discussions that follow.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1500309/87723568-992d4b80-c7d7-11ea-82f9-3364989a3eaf.png" alt="Readme Image">
+</p>
+
+## Installing and Running
+The repository contains a minimal scaffolding created with (Create React App)[https://github.com/facebook/create-react-app]. This is only meant as
+a starting point and you are free to change the structure if you wish. 
+
+1. To get started, install your dependencies
+```
+yarn install
+```
+
+2. Run the app in development mode
+```
+yarn start
+```
+
+3. Make the neccessary changes to complete the assignment
+4. Push out the changes to your forked repository.
+5. Raise a PR against our main repository from which you forked and let us know.
+6. That's it!
 
 ## 1—Search Component
 You are to build a search component to search for characters by name. Similar to how Google's search box works

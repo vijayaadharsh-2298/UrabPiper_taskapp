@@ -36,7 +36,7 @@ We have included designs for the component in the repository. Try to stick close
 please feel free to change it. We would love to discuss that in the discussions that follow.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1500309/87723568-992d4b80-c7d7-11ea-82f9-3364989a3eaf.png" alt="Readme Image">
+  <img src="https://user-images.githubusercontent.com/1500309/87780788-0a5b1600-c84d-11ea-8209-6873be1f8b26.png" alt="Readme Image">
 </p>
 
 ## Installing and Running

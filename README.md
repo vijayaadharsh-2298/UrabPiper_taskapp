@@ -28,7 +28,7 @@ You are tasked with building this component to help the rebels restore freedom t
 ## The Assignment
 This repository contains a basic scaffolding of a React app. We have purposefully kept the dependencies to a minimum, 
 it is by no means supposed to be a limitation. You can go ahead and introduce any library/software system that you 
-feel will help you create a better solution. Needless to say please do not use an Search library/component :)
+feel will help you create a better solution. Needless to say please do not use a Search library/component :)
 
 You can make use of the publicly accessible API Service — [Star Wars API — SWAPI](https://swapi.dev/). Use the `/people/` endpoint to search for characters.
 
@@ -40,7 +40,7 @@ please feel free to change it. We would love to discuss that in the discussions 
 </p>
 
 ## Installing and Running
-The repository contains a minimal scaffolding created with (Create React App)[https://github.com/facebook/create-react-app]. This is only meant as
+The repository contains a minimal scaffolding created with [Create React App](https://github.com/facebook/create-react-app). This is only meant as
 a starting point and you are free to change the structure if you wish. 
 
 1. To get started, install your dependencies

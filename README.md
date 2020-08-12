@@ -28,12 +28,12 @@ You are tasked with building this component to help the rebels restore freedom t
 ## The Assignment
 This repository contains a basic scaffolding of a React app. We have purposefully kept the dependencies to a minimum, 
 it is by no means supposed to be a limitation. You can go ahead and introduce any library/software system that you 
-feel will help you create a better solution. Needless to say please do not use a Search library/component :)
+feel will help you create a better solution. However please make sure you do not use an external library for the Search component itself. This is a core part of the assignment and we expect you to implement it yourself.
 
 You can make use of the publicly accessible API Service — [Star Wars API — SWAPI](https://swapi.dev/). Use the `/people/` endpoint to search for characters.
 
-We have included designs for the component in the repository. Try to stick close to the design, but if you feel like something can be done better
-please feel free to change it. We would love to discuss that in the discussions that follow.
+We have included designs for the component in the repository. Stick close to the given designs, but if you feel like some aspect can be improved
+please feel free to do so. We would love to discuss that in the discussions that follow.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/1500309/87780788-0a5b1600-c84d-11ea-8209-6873be1f8b26.png" alt="Readme Image">

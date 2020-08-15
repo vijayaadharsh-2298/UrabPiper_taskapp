@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import logo from './star-wars-logo.png';
 import './index.css';
 
 import Persons from '../Persons/index';
+import { setText } from '../../redux/filter.actions';
 
 class HomePage extends Component {
   state = {
     showPersons: false
   }
 
-  showPersons = () => {
+  showPersons = e => {
     this.setState({showPersons: true})
+    this.props.setText(e.target.value)
   }
 
   searchResult = () => {
@@ -23,7 +26,8 @@ class HomePage extends Component {
       <div className="logo">
         <img src={logo} alt="Star Wars Logo" />
       </div>
-      <input className="search-input" placeholder="Search by name" onChange={this.showPersons}/>
+      <input className="search-input" placeholder="Search by name" 
+      onChange={this.showPersons}/>
       <button type="button" className="btn search-button m-2"
       onClick={this.searchResult}
       >Search</button>
@@ -32,4 +36,10 @@ class HomePage extends Component {
   )};
 }
 
-export default HomePage;
+const mapDispatchToProps = dispatch => {
+  return{
+    setText: (text) => dispatch(setText(text))
+  }
+}
+
+export default connect(null,mapDispatchToProps)(HomePage);

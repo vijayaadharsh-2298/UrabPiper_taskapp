@@ -1,0 +1,11 @@
+.single-card{
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.single-card:hover{
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}

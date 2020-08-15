@@ -1,3 +1,19 @@
+.person{
+    color: white;
+    font-size: 16px;
+}
+
 .person h1 {
     color: #ecd014;
+}
+
+.nav-button{
+    border: 1px solid #cccccc;
+    background: transparent;
+    color: white;
+}
+
+.nav-button:hover{
+    background-color: white;
+    color: black;
 }

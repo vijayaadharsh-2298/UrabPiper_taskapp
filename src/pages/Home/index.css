@@ -19,3 +19,18 @@
 .logo img {
     width: 200px;
 }
+
+.search-button{
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    color: white;
+    background: #ecd014;
+    padding: 16px 24px;
+}
+
+.search-button:hover{
+    color: #ecd014;
+    background: transparent;
+    border: 1px solid #cccccc;
+}
